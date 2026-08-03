@@ -1,6 +1,6 @@
-const WHATSAPP='5511987217718';
+const WHATSAPP='5511987218818';
 const MESSAGE='Olá, Dra. Isabella! Vi a página sobre lentes em resina com resultado natural e gostaria de agendar uma avaliação.';
-document.querySelectorAll('.zap').forEach(a=>{a.href=`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(MESSAGE)}`;a.target='_blank';a.rel='noopener';});
+document.querySelectorAll('.zap').forEach(a=>{a.href=`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(MESSAGE)}`;a.target='_blank';a.rel='noopener';a.addEventListener('click',()=>{if(typeof gtag_report_conversion==='function')gtag_report_conversion();});});
 document.querySelectorAll('.faq-item button').forEach(btn=>btn.addEventListener('click',()=>{const item=btn.closest('.faq-item');const open=item.classList.toggle('open');btn.setAttribute('aria-expanded',open?'true':'false');}));
 const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');observer.unobserve(e.target)}}),{threshold:.08});
 document.querySelectorAll('.rev').forEach(el=>observer.observe(el));
