@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://site-isabella-nu.vercel.app/sitemap.xml
+Sitemap: https://site-isabella-nu.vercel.app/blog/sitemap.xml
