@@ -6,7 +6,7 @@ const sources = {
   whitening: ['American Dental Association: clareamento dental', 'https://www.mouthhealthy.org/all-topics-a-z/teeth-whitening'],
   bruxism: ['NHS: bruxismo', 'https://www.nhs.uk/symptoms/teeth-grinding/']
 };
-// Datas de liberação efetiva. O servidor não entrega artigos antes do horário.
+// Artigos liberados integralmente em 12/09/2026.
 const posts = [
   {
     slug: 'quanto-custam-lentes-de-resina', date: '2026-09-12T17:35:00-03:00', category: 'Investimento',
@@ -20,7 +20,7 @@ const posts = [
     ]
   },
   {
-    slug: 'lentes-de-resina-resultado-natural', date: '2026-09-13T09:10:00-03:00', category: 'Naturalidade',
+    slug: 'lentes-de-resina-resultado-natural', date: '2026-09-12T17:46:26-03:00', category: 'Naturalidade',
     title: 'Lentes de resina naturais: o que observar além da cor branca',
     excerpt: 'Como conversar sobre formato, proporção e referências para buscar um sorriso que combine com você.',
     intro: 'Quando alguém diz que quer um sorriso natural, pode estar falando de coisas diferentes: uma mudança discreta, dentes menos uniformes ou uma cor que não chame tanta atenção. Explicar o que essa palavra significa para você é um bom começo para o planejamento.',
@@ -31,7 +31,7 @@ const posts = [
     ]
   },
   {
-    slug: 'resina-ou-porcelana-como-escolher', date: '2026-09-14T12:25:00-03:00', category: 'Planejamento',
+    slug: 'resina-ou-porcelana-como-escolher', date: '2026-09-12T17:46:26-03:00', category: 'Planejamento',
     title: 'Resina ou porcelana: quais perguntas ajudam a escolher?',
     excerpt: 'Entenda as diferenças gerais e leve uma comparação mais útil para a avaliação.',
     intro: 'A escolha entre resina e porcelana costuma começar por uma comparação de preços. Mas uma decisão informada também considera a indicação, o que você espera mudar e como pretende cuidar do tratamento ao longo do tempo.',
@@ -42,7 +42,7 @@ const posts = [
     ]
   },
   {
-    slug: 'lente-de-resina-precisa-desgastar', date: '2026-09-15T18:40:00-03:00', category: 'Antes de decidir',
+    slug: 'lente-de-resina-precisa-desgastar', date: '2026-09-12T17:46:26-03:00', category: 'Antes de decidir',
     title: 'Lente de resina precisa desgastar o dente?',
     excerpt: 'Por que a preservação dental precisa ser discutida antes de qualquer procedimento.',
     intro: 'A possibilidade de preservar os dentes costuma pesar muito na decisão por um tratamento estético. Por isso, a pergunta sobre desgaste merece uma resposta individual, com explicação do que está sendo proposto e por quê.',
@@ -53,7 +53,7 @@ const posts = [
     ]
   },
   {
-    slug: 'cuidados-manutencao-lentes-de-resina', date: '2026-09-16T08:35:00-03:00', category: 'Cuidados',
+    slug: 'cuidados-manutencao-lentes-de-resina', date: '2026-09-12T17:46:26-03:00', category: 'Cuidados',
     title: 'Cuidados com lentes de resina: o que entra na rotina depois do tratamento',
     excerpt: 'Higiene, retornos e planejamento da manutenção também fazem parte da decisão.',
     intro: 'Pensar na rotina depois do procedimento é tão útil quanto escolher a aparência do novo sorriso. Antes de contratar, entenda quais cuidados serão necessários e como você poderá manter o acompanhamento dentro da sua agenda.',
@@ -64,7 +64,7 @@ const posts = [
     ]
   },
   {
-    slug: 'lentes-de-resina-mancham-clareamento', date: '2026-09-17T14:15:00-03:00', category: 'Cor do sorriso',
+    slug: 'lentes-de-resina-mancham-clareamento', date: '2026-09-12T17:46:26-03:00', category: 'Cor do sorriso',
     title: 'Lentes de resina mancham? E o clareamento muda a cor delas?',
     excerpt: 'Entenda por que resina e dentes naturais precisam ser considerados no planejamento da cor.',
     intro: 'Quem procura um sorriso mais claro frequentemente pensa no clareamento e nas lentes como caminhos equivalentes. Eles têm propostas diferentes. Vale discutir a sequência do tratamento antes de escolher a cor ou comprar produtos por conta própria.',
@@ -75,7 +75,7 @@ const posts = [
     ]
   },
   {
-    slug: 'bruxismo-lentes-de-resina', date: '2026-09-18T10:50:00-03:00', category: 'Avaliação',
+    slug: 'bruxismo-lentes-de-resina', date: '2026-09-12T17:46:26-03:00', category: 'Avaliação',
     title: 'Quem tem bruxismo pode colocar lentes de resina?',
     excerpt: 'O que contar na consulta quando existe apertamento ou hábito de ranger os dentes.',
     intro: 'Ter interesse em melhorar o sorriso e perceber sinais de apertamento ao mesmo tempo pode gerar dúvidas. A resposta sobre lentes não deve vir de uma fotografia ou de uma comparação com alguém que fez o tratamento. Ela depende de avaliação.',
@@ -86,7 +86,7 @@ const posts = [
     ]
   },
   {
-    slug: 'quantos-dentes-colocar-lentes-de-resina', date: '2026-09-19T16:05:00-03:00', category: 'Planejamento',
+    slug: 'quantos-dentes-colocar-lentes-de-resina', date: '2026-09-12T17:46:26-03:00', category: 'Planejamento',
     title: 'Preço das lentes de resina: como a quantidade de dentes entra no orçamento',
     excerpt: 'Viu a condição de 10x de R$500? Entenda por que é preciso confirmar os dentes incluídos na proposta individual.',
     intro: 'Ao pesquisar lentes em resina, é comum encontrar propostas com quantidades diferentes. Isso pode dar a impressão de que existe um número ideal para todos. A pergunta mais útil, porém, é quais dentes precisam ser considerados para o que você deseja mudar.',
@@ -97,7 +97,7 @@ const posts = [
     ]
   },
   {
-    slug: 'primeira-avaliacao-lentes-de-resina', date: '2026-09-20T11:20:00-03:00', category: 'Sua consulta',
+    slug: 'primeira-avaliacao-lentes-de-resina', date: '2026-09-12T17:46:26-03:00', category: 'Sua consulta',
     title: 'Avaliação para lentes de resina: o que perguntar sobre preço e parcelamento',
     excerpt: 'Valor total, parcelas, retornos e manutenção: prepare suas perguntas para entender a proposta antes de contratar.',
     intro: 'Você não precisa chegar à primeira consulta sabendo qual técnica escolher. O mais útil é levar suas expectativas e estar disposto a entender as possibilidades. A avaliação deve ajudar a organizar a decisão, inclusive quando ainda existem dúvidas sobre o investimento.',
@@ -108,7 +108,7 @@ const posts = [
     ]
   },
   {
-    slug: 'como-escolher-profissional-lentes-resina-sao-paulo', date: '2026-09-21T19:30:00-03:00', category: 'Escolha consciente',
+    slug: 'como-escolher-profissional-lentes-resina-sao-paulo', date: '2026-09-12T17:46:26-03:00', category: 'Escolha consciente',
     title: 'Como escolher uma profissional de lentes em resina em São Paulo',
     excerpt: 'Portfólio, clareza da proposta e acompanhamento: critérios para ir além da localização e do preço.',
     intro: 'Escolher quem vai cuidar do seu sorriso envolve confiança, mas também informações concretas. Um perfil bonito pode despertar interesse. Para decidir, vale conhecer o trabalho, conversar sobre suas expectativas e entender como será o atendimento.',
@@ -120,9 +120,24 @@ const posts = [
   }
 ];
 
+
+const covers = [
+  ['hero-sorriso.webp','Detalhe de sorriso do portfólio da Dra. Isabella'],
+  ['mosaico-resultado.webp','Resultado de lentes em resina visto de lado'],
+  ['textura-natural.webp','Detalhe de textura e acabamento de lentes em resina'],
+  ['mosaico-tons-pele.webp','Sorriso apresentado no portfólio da Dra. Isabella'],
+  ['hero-sorriso.webp','Sorriso com lentes em resina'],
+  ['textura-natural.webp','Detalhe da cor e do acabamento das lentes'],
+  ['mosaico-resultado.webp','Sorriso do portfólio de lentes em resina'],
+  ['mosaico-tons-pele.webp','Resultado de lentes em resina do portfólio'],
+  ['dra-isabella-perfil.webp','Dra. Isabella Medeiros'],
+  ['dra-isabella-perfil.webp','Dra. Isabella Medeiros, cirurgiã-dentista']
+];
+posts.forEach((p,i)=>{p.image='/fotos/'+covers[i][0];p.imageAlt=covers[i][1];});
+
 const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const pathFor = p => '/blog/' + p.slug;
-const published = now => posts.filter(p => Date.parse(p.date) <= now).sort((a,b) => Date.parse(b.date)-Date.parse(a.date));
+const published = () => posts;
 const dateLabel = d => new Intl.DateTimeFormat('pt-BR',{timeZone:'America/Sao_Paulo',day:'2-digit',month:'long',year:'numeric',hour:'2-digit',minute:'2-digit'}).format(new Date(d));
 const rich = text => esc(text).replace(/\[(ada|cleveland|health|whitening|bruxism)\]/g, (_,key) => `<a class="source" href="${sources[key][1]}" target="_blank" rel="noopener noreferrer">${sources[key][0]}</a>`);
 const meta = p => `<span class="category">${esc(p.category)}</span><time datetime="${p.date}">${dateLabel(p.date)}</time>`;
@@ -131,16 +146,15 @@ function layout(title, description, path, body, schema, noindex=false) {
 }
 const cta = `<aside class="next-step"><span class="category">Lentes em resina · São Paulo</span><h2>Conheça o trabalho.<br><em>Entenda o investimento.</em></h2><p><strong>10x de R$500 no cartão · total de R$5.000.</strong><br>Condição apresentada na página de atendimento. O valor final depende da avaliação clínica. Confirme os dentes incluídos e as condições da sua proposta.</p><a class="button" href="/#investimento">Ver investimento e atendimento</a></aside>`;
 function indexPage(now) {
-  const live=published(now), upcoming=posts.filter(p=>Date.parse(p.date)>now);
-  const featured=live[0];
-  const card=p=>`<article class="card"><div class="meta">${meta(p)}</div><h2><a href="${pathFor(p)}">${esc(p.title)}</a></h2><p>${esc(p.excerpt)}</p><a class="read" href="${pathFor(p)}">Ler artigo <span aria-hidden="true">↗</span></a></article>`;
-  const body=`<div class="wrap"><section class="blog-intro"><p class="category">O seu sorriso, com informação</p><h1>Antes de decidir,<br><em>entenda.</em></h1><p>Um espaço para conversar sobre lentes em resina, escolhas e cuidados. Sem pressa para decidir.</p></section>${featured?`<article class="featured"><div class="featured-copy"><p class="category">Em destaque · ${esc(featured.category)}</p><h2><a href="${pathFor(featured)}">${esc(featured.title)}</a></h2><p>${esc(featured.excerpt)}</p><time datetime="${featured.date}">${dateLabel(featured.date)}</time><a class="button" href="${pathFor(featured)}">Ler artigo</a></div><img src="/fotos/hero-sorriso.webp" alt="Detalhe de resultado real de lentes em resina apresentado no portfólio da Dra. Isabella" width="1600" height="1066"></article>`:'<p>Os primeiros artigos estarão disponíveis em breve.</p>'}${live.length>1?`<section class="collection"><h2>Mais leituras</h2><div class="cards">${live.slice(1).map(card).join('')}</div></section>`:''}${upcoming.length?`<section class="collection upcoming"><div><p class="category">Próximas leituras</p><h2>Na nossa agenda</h2><p>Novos artigos nos dias e horários abaixo.<br>Horário de São Paulo.</p></div><ol>${upcoming.map(p=>`<li><time datetime="${p.date}">${dateLabel(p.date)}</time><h3>${esc(p.title)}</h3></li>`).join('')}</ol></section>`:''}${cta}</div>`;
-  return layout('Blog sobre lentes de resina', 'Investimento, naturalidade e cuidados com lentes em resina. Conteúdos para uma decisão informada.', '/blog',body,{'@type':'Blog',name:'Blog sobre lentes de resina',url:ORIGIN+'/blog',blogPost:live.map(p=>({'@type':'BlogPosting',headline:p.title,url:ORIGIN+pathFor(p),datePublished:p.date}))});
+  const live=published(now);
+  const cards=live.map(p=>`<article class="editorial-card"><a class="card-link" href="${pathFor(p)}"><span class="category">${esc(p.category)}</span><h2>${esc(p.title)}</h2><p class="card-subtitle">${esc(p.excerpt)}</p><div class="card-image"><img src="${p.image}" alt="${esc(p.imageAlt)}" loading="lazy" width="900" height="600"></div><div class="card-bottom"><span>Ler artigo</span><span aria-hidden="true">↗</span></div></a></article>`).join('');
+  const body=`<div class="wrap"><section class="blog-intro"><p class="category">Blog · Dra. Isabella Medeiros</p><h1>Lentes em resina.<br><em>Informação para decidir.</em></h1><p>Investimento, resultados naturais e cuidados: encontre respostas para planejar seu sorriso com clareza.</p></section><section class="editorial-grid" aria-label="Artigos sobre lentes em resina">${cards}</section>${cta}</div>`;
+  return layout('Blog sobre lentes de resina', 'Preço, parcelamento, naturalidade e cuidados com lentes em resina em São Paulo. Leia os artigos da Dra. Isabella.', '/blog',body,{'@type':'Blog',name:'Blog sobre lentes de resina',url:ORIGIN+'/blog',blogPost:live.map(p=>({'@type':'BlogPosting',headline:p.title,url:ORIGIN+pathFor(p),datePublished:p.date}))});
 }
 function articlePage(p,now) {
   const count=[p.intro,...p.sections.flat()].join(' ').split(/\s+/).length;
   const related=published(now).filter(x=>x.slug!==p.slug).slice(0,2);
-  const body=`<article class="wrap article"><a class="back" href="/blog">← Voltar ao blog</a><div class="meta">${meta(p)}<span>${Math.max(2,Math.ceil(count/180))} min de leitura</span></div><h1>${esc(p.title)}</h1><p class="standfirst">${esc(p.excerpt)}</p><p class="byline">Por Equipe editorial BNC · Horário de São Paulo</p><div class="article-body"><p>${rich(p.intro)}</p>${p.sections.map(s=>`<section><h2>${esc(s[0])}</h2>${s.slice(1).map(t=>`<p>${rich(t)}</p>`).join('')}</section>`).join('')}${cta}</div>${related.length?`<section class="related"><h2>Continue a leitura</h2>${related.map(x=>`<a href="${pathFor(x)}">${esc(x.title)} <span aria-hidden="true">↗</span></a>`).join('')}</section>`:''}</article>`;
+  const body=`<article class="wrap article"><a class="back" href="/blog">← Voltar ao blog</a><div class="meta">${meta(p)}<span>${Math.max(2,Math.ceil(count/180))} min de leitura</span></div><h1>${esc(p.title)}</h1><p class="standfirst">${esc(p.excerpt)}</p><figure class="article-cover"><img src="${p.image}" alt="${esc(p.imageAlt)}" width="1200" height="800" fetchpriority="high"><figcaption>Imagem do portfólio da Dra. Isabella para ilustrar o tema. A indicação e os resultados variam conforme o caso.</figcaption></figure><p class="byline">Por Equipe editorial BNC · Horário de São Paulo</p><div class="article-body"><p>${rich(p.intro)}</p>${p.sections.map(s=>`<section><h2>${esc(s[0])}</h2>${s.slice(1).map(t=>`<p>${rich(t)}</p>`).join('')}</section>`).join('')}${cta}</div>${related.length?`<section class="related"><h2>Continue a leitura</h2>${related.map(x=>`<a href="${pathFor(x)}">${esc(x.title)} <span aria-hidden="true">↗</span></a>`).join('')}</section>`:''}</article>`;
   return layout(p.title,p.excerpt,pathFor(p),body,{'@type':'BlogPosting',headline:p.title,description:p.excerpt,datePublished:p.date,dateModified:p.date,inLanguage:'pt-BR',mainEntityOfPage:ORIGIN+pathFor(p),author:{'@type':'Organization',name:'Equipe editorial BNC'},publisher:{'@type':'Organization',name:'Dra. Isabella Medeiros',url:ORIGIN}});
 }
 function handle(req,res,now=Date.now()) {
