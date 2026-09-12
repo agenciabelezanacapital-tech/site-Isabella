@@ -6,6 +6,7 @@
   --shadow:0 24px 65px rgba(0,0,0,.48);--radius:22px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 html{scroll-behavior:smooth;background:var(--bg)}
 body{background:var(--bg);color:var(--text);font-family:'Outfit',system-ui,sans-serif;font-weight:300;line-height:1.68;overflow-x:hidden;padding-bottom:88px;-webkit-font-smoothing:antialiased}
 img{display:block;width:100%;height:auto}
