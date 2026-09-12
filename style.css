@@ -120,6 +120,17 @@ em{color:var(--gold);font-weight:600}
 .compare-cell{padding:13px;font-size:.83rem;color:var(--text)}
 .compare-cell:first-of-type{border-right:1px solid var(--line);background:rgba(201,169,110,.08)}
 .compare-cell b{display:block;color:var(--gold);font-size:.54rem;text-transform:uppercase;letter-spacing:.1em;font-family:'IBM Plex Mono',monospace;margin-bottom:4px}
+.price-card{margin-top:27px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(145deg,var(--surface),rgba(201,169,110,.06));padding:30px 22px;text-align:center}
+.price-value{display:flex;align-items:baseline;justify-content:center;gap:10px;font-family:'Cormorant Garamond',serif}
+.price-times{font-size:2rem;color:var(--gold)}
+.price-amount{font-size:2.9rem;font-weight:600;color:var(--gold2)}
+.price-note{color:var(--muted);font-size:.79rem;margin-top:11px;max-width:380px;margin-inline:auto}
+.price-card .cta{margin-top:22px}
+.reaction-grid{display:grid;gap:16px;margin-top:27px}
+.reaction-video{width:100%;aspect-ratio:9/16;border-radius:20px;border:1px solid var(--line);background:var(--surface);box-shadow:0 16px 45px rgba(0,0,0,.22);object-fit:cover}
+@media (min-width:760px){
+  .reaction-grid{grid-template-columns:1fr 1fr;max-width:620px;margin-inline:auto}
+}
 .faq{display:grid;gap:8px;margin-top:28px}
 .faq-item{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface)}
 .faq-item button{width:100%;display:flex;align-items:center;justify-content:space-between;gap:15px;text-align:left;border:0;background:transparent;color:var(--cream);padding:16px;cursor:pointer;font-family:'Cormorant Garamond',serif;font-weight:600;font-size:1.05rem;line-height:1.25}
