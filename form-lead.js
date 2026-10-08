@@ -13,8 +13,23 @@
   var WHATSAPP = '5511987217718';
   var CONVERSAO_GOOGLE = 'AW-18369143887/5YMbCMaAwtscEM_Ii7dE';
 
+  var PIXEL_META = '857423647365167';
+
   if (ENDPOINT.indexOf('COLE_AQUI') === 0) {
     console.warn('[form-lead] ENDPOINT nao configurado. O formulario abre, mas nada e gravado na planilha.');
+  }
+
+  /* ---------- pixel da Meta, so onde a pagina ainda nao carrega o dele ---------- */
+  if (typeof window.fbq === 'undefined') {
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = [];
+      t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s);
+    }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('set', 'autoConfig', false, PIXEL_META);
+    fbq('init', PIXEL_META);
+    fbq('track', 'PageView');
   }
 
   /* ---------- origem, congelada na primeira pagina da sessao ---------- */
@@ -201,7 +216,9 @@
       a.addEventListener('click', function (ev) {
         ev.preventDefault();
         var sec = a.closest('section');
-        abrir(sec ? (sec.id || sec.className) : '');
+        var nome = sec ? (sec.id || sec.className) : '';
+        if (!nome && location.pathname.indexOf('/blog') === 0) nome = 'blog';
+        abrir(nome);
       });
     });
   }
